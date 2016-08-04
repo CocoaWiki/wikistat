@@ -131,14 +131,14 @@ engine: mediawiki
 engine_options:
   api_endpoint: "http://www.osawiki.ml/w/api.php"
 
----
-id: badawiki
-name: 바다위키
-license: CC-by-nc-sa 2.0 KR
-url: "http://wiki.duitsan.com/"
-engine: mediawiki
-engine_options:
-  api_endpoint: "http://wiki.duitsan.com/api.php"
+#---
+#id: badawiki
+#name: 바다위키
+#license: CC-by-nc-sa 2.0 KR
+#url: "http://wiki.duitsan.com/"
+#engine: mediawiki
+#engine_options:
+#  api_endpoint: "http://wiki.duitsan.com/api.php"
 
 #---
 #id: twicewiki
