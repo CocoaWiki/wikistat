@@ -1,0 +1,54 @@
+body {
+	margin: 0px;
+	font-size: 4px;
+	font-family: sans-serif;
+}
+a {
+	color: #009688;
+}
+.ws-container {
+	width: 600px;
+	max-width: 00%;
+	margin: 0 auto;
+}
+.ws-title {
+	text-align: center;
+}
+.ws-sites {
+	border-collapse: collapse;
+	width: 00%;
+}
+.ws-sites th {
+	background-color: #f4f4f4;
+}
+.ws-sites th, .ws-sites td {
+	border: px solid #ccc;
+	padding: 8px;
+}
+.ws-license {
+	color: #666;
+	font-size: 0.85em;
+}
+.ws-g {
+	margin-right: 4px;
+}
+.ws-n {
+	font-size: 0.9em;
+	font-weight: bold;
+	text-align: right;
+	margin-bottom: 4px;
+	display: block;
+}
+.ws-n-error {
+	color: red;
+}
+.ws-help {
+	color: #444;
+	list-style: square;
+	margin: 6px;
+	padding: 0;
+	font-size: 0.9em;
+}
+.ws-help li {
+	margin-bottom: 8px;
+}
