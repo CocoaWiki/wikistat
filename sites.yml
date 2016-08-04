@@ -26,6 +26,15 @@ engine_options:
   api_endpoint: "http://wsilog.xyz/test/api.php"
 
 ---
+id: librewiki
+name: 리브레 위키
+license: CC-by-sa 3.0
+url: "http://librewiki.net/"
+engine: mediawiki
+engine_options:
+  api_endpoint: "http://librewiki.net/api.php"
+
+---
 id: buswiki
 name: 버스위키
 license: CC-by-nc-nd 4.0
