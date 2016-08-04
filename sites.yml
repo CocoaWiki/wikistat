@@ -1,20 +1,20 @@
 ---
 id: wikipedia-ko
 name: 한국어 위키백과
-url: "https://ko.wikipedia.org/"
+url: "http://ko.wikipedia.org/"
 license: CC-by-sa 3.0
 engine: mediawiki
 engine_options:
-  api_endpoint: "https://ko.wikipedia.org/w/api.php"
+  api_endpoint: "http://ko.wikipedia.org/w/api.php"
 
 ---
 id: wiktionary-ko
 name: 한국어 위키낱말사전
-url: "https://ko.wiktionary.org/"
+url: "http://ko.wiktionary.org/"
 license: CC-by-sa 3.0
 engine: mediawiki
 engine_options:
-  api_endpoint: "https://ko.wiktionary.org/w/api.php"
+  api_endpoint: "http://ko.wiktionary.org/w/api.php"
 
 ---
 id: uncyclopedia-ko
@@ -29,7 +29,7 @@ engine_options:
 id: namuwiki
 name: 나무위키
 license: CC-by-nc-sa 2.0 KR
-url: "https://namu.wiki/"
+url: "http://namu.wiki/"
 engine: namu
 
 ---
@@ -90,10 +90,10 @@ engine_options:
 id: oriwiki
 name: 오리위키
 license: CC-by-nc-sa 2.0 KR
-url: "https://oriwiki.net/"
+url: "http://oriwiki.net/"
 engine: mediawiki
 engine_options:
-  api_endpoint: "https://oriwiki.net/api.php"
+  api_endpoint: "http://oriwiki.net/api.php"
 
 ---
 id: threadiki
@@ -135,25 +135,25 @@ engine_options:
 id: badawiki
 name: 바다위키
 license: CC-by-nc-sa 2.0 KR
-url: "https://wiki.duitsan.com/"
+url: "http://wiki.duitsan.com/"
 engine: mediawiki
 engine_options:
-  api_endpoint: "https://wiki.duitsan.com/api.php"
+  api_endpoint: "http://wiki.duitsan.com/api.php"
 
 ---
 id: twicewiki
 name: 트둥백과
 license: CC-by-nc-sa 3.0
-url: "https://twicewiki.net/"
+url: "http://twicewiki.net/"
 engine: mediawiki
 engine_options:
-  api_endpoint: "https://twicewiki.net/api.php"
+  api_endpoint: "http://twicewiki.net/api.php"
 
 ---
 id: kiwiwiki
 name: 키위위키
 license: CC-by-sa 4.0 Intl
-url: "https://kiwki.us/"
+url: "http://kiwki.us/"
 engine: mediawiki
 engine_options:
-  api_endpoint: "https://kiwki.us/api.php"
+  api_endpoint: "http://kiwki.us/api.php"
