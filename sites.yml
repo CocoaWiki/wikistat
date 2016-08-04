@@ -157,12 +157,3 @@ url: "https://kiwki.us/"
 engine: mediawiki
 engine_options:
   api_endpoint: "https://kiwki.us/api.php"
-
----
-id: kiwimirror
-name: 키위위키 미러
-license: CC-by-sa 4.0 Intl
-url: "https://mirror.kiwki.us/"
-engine: mediawiki
-engine_options:
-  api_endpoint: "https://mirror.kiwki.us/api.php"
