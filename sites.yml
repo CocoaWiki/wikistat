@@ -35,6 +35,15 @@ engine_options:
   api_endpoint: "http://librewiki.net/api.php"
 
 ---
+id: osawiki
+name: 오사위키
+license: CC BY-SA 4.0(DB 제외)
+url: "http://www.osawiki.com"
+engine: mediawiki
+engine_options:
+  api_endpoint: "http://www.osawiki.com/w/api.php"
+
+---
 id: namuwiki
 name: 나무위키
 license: CC-BY-NC-SA 2.0 KR
