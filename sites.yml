@@ -26,15 +26,6 @@ engine_options:
   api_endpoint: "http://wsilog.xyz/test/api.php"
 
 ---
-id: namuwiki
-name: 나무위키
-license: CC-BY-NC-SA 3.0
-url: "https://namu.wiki/"
-engine: namu
-engine_options:
-  api_endpoint: "https://namu.wiki/"
-
----
 id: buswiki
 name: 버스위키
 license: CC-BY-NC-ND 4.0
