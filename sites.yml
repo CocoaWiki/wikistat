@@ -140,20 +140,20 @@ engine: mediawiki
 engine_options:
   api_endpoint: "http://wiki.duitsan.com/api.php"
 
----
-id: twicewiki
-name: 트둥백과
-license: CC-by-nc-sa 3.0
-url: "http://twicewiki.net/"
-engine: mediawiki
-engine_options:
-  api_endpoint: "http://twicewiki.net/api.php"
+#---
+#id: twicewiki
+#name: 트둥백과
+#license: CC-by-nc-sa 3.0
+#url: "http://twicewiki.net/"
+#engine: mediawiki
+#engine_options:
+#  api_endpoint: "http://twicewiki.net/api.php"
 
----
-id: kiwiwiki
-name: 키위위키
-license: CC-by-sa 4.0 Intl
-url: "http://kiwki.us/"
-engine: mediawiki
-engine_options:
-  api_endpoint: "http://kiwki.us/api.php"
+#---
+#id: kiwiwiki
+#name: 키위위키
+#license: CC-by-sa 4.0 Intl
+#url: "http://kiwki.us/"
+#engine: mediawiki
+#engine_options:
+#  api_endpoint: "http://kiwki.us/api.php"
