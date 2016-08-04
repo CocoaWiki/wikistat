@@ -53,3 +53,4 @@ Traceback (most recent call last):
     assert nchanges >= 1
 AssertionError
 
+대부분의 위키를 지우고 한 결과 CloudFlare SSL을 인식하지 못하는듯함. 어째서?!
