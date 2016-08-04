@@ -1,7 +1,7 @@
 ---
 id: kiwiwiki
 name: 키위위키
-license: CC-by-sa 4.0 Intl
+license: CC-BY-SA 4.0 Intl
 url: "http://kiwki.us/"
 engine: mediawiki
 engine_options:
@@ -10,7 +10,7 @@ engine_options:
 ---
 id: twicewiki
 name: 트둥백과
-license: CC-by-nc-sa 3.0
+license: CC-BY-NC-SA 3.0
 url: "http://twicewiki.net/"
 engine: mediawiki
 engine_options:
@@ -27,17 +27,17 @@ engine_options:
 
 ---
 id: namuwiki
-name: 리브레 위키
-license: CC-by-sa 3.0
-url: "https://namuwiki.net/"
-engine: mediawiki
+name: 나무위키
+license: CC-BY-NC-SA 3.0
+url: "https://namu.wiki/"
+engine: namu
 engine_options:
   api_endpoint: "https://namu.wiki/"
 
 ---
 id: buswiki
 name: 버스위키
-license: CC-by-nc-nd 4.0
+license: CC-BY-NC-ND 4.0
 url: "http://buswiki.2t.yt/"
 engine: mediawiki
 engine_options:
