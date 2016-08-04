@@ -26,13 +26,6 @@ engine_options:
   api_endpoint: "http://uncyclopedia.kr/w/api.php"
 
 ---
-id: namuwiki
-name: 나무위키
-license: CC-by-nc-sa 2.0 KR
-url: "http://namu.wiki/"
-engine: namu
-
----
 id: gooswiki
 name: 구스위키
 license: CC-by-nc-sa 3.0
@@ -40,15 +33,6 @@ url: "http://goos.wiki/"
 engine: mediawiki
 engine_options:
   api_endpoint: "http://goos.wiki/api.php"
-
----
-id: rigvedawiki
-name: 리그베다 위키
-license: CC-by-nc-sa 2.0 KR
-url: "http://rigvedawiki.net/"
-engine: moniwiki
-engine_options:
-  rc_url: "http://rigvedawiki.net/r1/wiki.php/RecentChanges"
 
 ---
 id: librewiki
@@ -139,15 +123,6 @@ url: "http://wiki.duitsan.com/"
 engine: mediawiki
 engine_options:
   api_endpoint: "http://wiki.duitsan.com/api.php"
-
----
-id: twicewiki
-name: 트둥백과
-license: CC-by-nc-sa 3.0
-url: "http://twicewiki.net/"
-engine: mediawiki
-engine_options:
-  api_endpoint: "http://twicewiki.net/api.php"
 
 ---
 id: kiwiwiki
