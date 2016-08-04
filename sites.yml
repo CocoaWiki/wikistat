@@ -28,7 +28,7 @@ engine_options:
 ---
 id: librewiki
 name: 리브레 위키
-license: CC-by-sa 3.0
+license: CC-BY-SA 3.0
 url: "http://librewiki.net/"
 engine: mediawiki
 engine_options:
@@ -37,7 +37,7 @@ engine_options:
 ---
 id: namuwiki
 name: 나무위키
-license: CC-by-nc-sa 2.0 KR
+license: CC-BY-NC-SA 2.0 KR
 url: "https://namu.wiki/"
 engine: namu
 
