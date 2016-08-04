@@ -1,65 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
-    <title>WikiStat</title>
-    <style type="text/css">
-    body {
-        margin: 10px;
-        font-size: 14px;
-        font-family: sans-serif;
-    }
-    a {
-        color: #009688;
-    }
-    .ws-container {
-        width: 600px;
-        max-width: 100%;
-        margin: 0 auto;
-    }
-    .ws-title {
-        text-align: center;
-    }
-    .ws-sites {
-        border-collapse: collapse;
-        width: 100%;
-    }
-    .ws-sites th {
-        background-color: #f4f4f4;
-    }
-    .ws-sites th, .ws-sites td {
-        border: 1px solid #ccc;
-        padding: 8px;
-    }
-    .ws-license {
-        color: #666;
-        font-size: 0.85em;
-    }
-    .ws-g {
-        margin-right: 4px;
-    }
-    .ws-n {
-        font-size: 0.9em;
-        font-weight: bold;
-        text-align: right;
-        margin-bottom: 4px;
-        display: block;
-    }
-    .ws-n-error {
-        color: red;
-    }
-    .ws-help {
-        color: #444;
-        list-style: square;
-        margin: 16px;
-        padding: 0;
-        font-size: 0.9em;
-    }
-    .ws-help li {
-        margin-bottom: 8px;
-    }
-    </style>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>WikiStat</title>
 </head>
 <body>
 <div class="ws-container">
@@ -70,48 +14,48 @@
 
 <table class="ws-sites">
 <thead>
-    <tr>
-        <th colspan="2">사이트명/라이선스</th>
-    </tr>
-    <tr>
-        <th>문서 수</th>
-        <th>편집 빈도 (추정)</th>
-    </tr>
+	<tr>
+		<th colspan="2">사이트명/라이선스</th>
+	</tr>
+	<tr>
+		<th>문서 수</th>
+		<th>편집 빈도 (추정)</th>
+	</tr>
 </thead>
 <tbody>
 {% for site in results %}
-    <tr>
-        <td colspan="2">
-            <a href="{{ site.url }}">{{ site.name }}</a>
-            <span class="ws-license">{{ site.license }}</span>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            {% if site.error %}
-            <span class="ws-n ws-n-error">[오류]</span>
-            {% else %}
-            <span class="ws-n">{{ '{:,}'.format(site.page_count) }}</span>
-            {% endif %}
-            <span class="ws-g" data-select="{{ site.id }}.page_count"></span>
-        </td>
-        <td>
-            {% if site.error %}
-            <span class="ws-n ws-n-error">[오류]</span>
-            {% else %}
-            <span class="ws-n">{{ '%.2f'|format(site.freq) }}회/일</span>
-            {% endif %}
-            <span class="ws-g" data-select="{{ site.id }}.freq"></span>
-        </td>
-    </tr>
+	<tr>
+		<td colspan="2">
+			<a href="{{ site.url }}">{{ site.name }}</a>
+			<span class="ws-license">{{ site.license }}</span>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			{% if site.error %}
+			<span class="ws-n ws-n-error">[오류]</span>
+			{% else %}
+			<span class="ws-n">{{ '{:,}'.format(site.page_count) }}</span>
+			{% endif %}
+			<span class="ws-g" data-select="{{ site.id }}.page_count"></span>
+		</td>
+		<td>
+			{% if site.error %}
+			<span class="ws-n ws-n-error">[오류]</span>
+			{% else %}
+			<span class="ws-n">{{ '%.2f'|format(site.freq) }}회/일</span>
+			{% endif %}
+			<span class="ws-g" data-select="{{ site.id }}.freq"></span>
+		</td>
+	</tr>
 {% endfor %}
 </tbody>
 </table>
 
 <ul class="ws-help">
-    <li>문서 수는 시스템 문서, 넘겨주기 문서 등을 모두 포함한 수치이므로 실제 글 수와는 차이가 있을 수 있습니다.</li>
-    <li>편집 빈도는 최근 100개의 변경사항을 기준으로 추정한 값이므로 시간대에 따라 다를 수 있습니다.</li>
-    <li>추가하고 싶은 위키가 있으시면 <a href="https://github.com/dittos/wikistat">GitHub 저장소</a>에 풀 리퀘스트를 보내시거나 <a href="https://twitter.com/__ditto">@__ditto</a>로 연락 주세요.</li>
+	<li>문서 수는 시스템 문서, 넘겨주기 문서 등을 모두 포함한 수치이므로 실제 글 수와는 차이가 있을 수 있습니다.</li>
+	<li>편집 빈도는 최근 100개의 변경사항을 기준으로 추정한 값이므로 시간대에 따라 다를 수 있습니다.</li>
+	<li>추가하고 싶은 위키가 있으시면 <a href="https://github.com/dittos/wikistat">GitHub 저장소</a>에 풀 리퀘스트를 보내시거나 <a href="https://twitter.com/__ditto">@__ditto</a>로 연락 주세요.</li>
 </ul>
 
 <a href="https://github.com/dittos/wikistat"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/e7bbb0521b397edbd5fe43e7f760759336b5e05f/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677265656e5f3030373230302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png"></a>
@@ -121,19 +65,19 @@
 <script>
 var padding = 8;
 var options = {
-    width: ($('.ws-container').width() / 2 - padding * 2) + 'px',
-    height: '30px',
-    lineColor: '#3F51B5',
-    fillColor: '#fff',
-    tooltipFormatter: function(sparkline, options, fields) {
-        return Math.round(fields.y * 100) / 100 + ' | ' + new Date(1000 * fields.x).toLocaleString();
-    }
+	width: ($('.ws-container').width() / 2 - padding * 2) + 'px',
+	height: '30px',
+	lineColor: '#3F51B5',
+	fillColor: '#fff',
+	tooltipFormatter: function(sparkline, options, fields) {
+		return Math.round(fields.y * 100) / 100 + ' | ' + new Date(1000 * fields.x).toLocaleString();
+	}
 };
 var stats = {{ stats_by_site|safe }};
 $('.ws-g').each(function(i, el) {
-    var $el = $(el);
-    var select = $el.data('select').split('.');
-    $el.sparkline(stats[select[0]][select[1]], options);
+	var $el = $(el);
+	var select = $el.data('select').split('.');
+	$el.sparkline(stats[select[0]][select[1]], options);
 });
 </script>
 
