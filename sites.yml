@@ -24,3 +24,12 @@ url: "http://wsilog.xyz/test/"
 engine: mediawiki
 engine_options:
   api_endpoint: "http://wsilog.xyz/test/api.php"
+
+---
+id: buswiki
+name: 버스위키
+license: CC-by-nc-nd 4.0
+url: "http://buswiki.2t.yt/"
+engine: mediawiki
+engine_options:
+  api_endpoint: "http://buswiki.2t.yt/api.php"
