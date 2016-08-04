@@ -26,13 +26,13 @@ engine_options:
   api_endpoint: "http://wsilog.xyz/test/api.php"
 
 ---
-id: librewiki
+id: namuwiki
 name: 리브레 위키
 license: CC-by-sa 3.0
-url: "https://librewiki.net/"
+url: "https://namuwiki.net/"
 engine: mediawiki
 engine_options:
-  api_endpoint: "https://librewiki.net/api.php"
+  api_endpoint: "https://namu.wiki/"
 
 ---
 id: buswiki
