@@ -11,16 +11,16 @@ engine_options:
 id: twicewiki
 name: 트둥백과
 license: CC-by-nc-sa 3.0
-url: "https://twicewiki.net/"
+url: "http://twicewiki.net/"
 engine: mediawiki
 engine_options:
-  api_endpoint: "https://twicewiki.net/api.php"
+  api_endpoint: "http://twicewiki.net/api.php"
 
 ---
 id: wsilog
 name: 대한위키실록
 license: Public Domain
-url: "https://wsilog.xyz/test/"
+url: "http://wsilog.xyz/test/"
 engine: mediawiki
 engine_options:
-  api_endpoint: "https://wsilog.xyz/test/api.php"
+  api_endpoint: "http://wsilog.xyz/test/api.php"
