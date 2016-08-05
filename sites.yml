@@ -44,6 +44,15 @@ engine_options:
   api_endpoint: "http://www.osawiki.com/w/api.php"
 
 ---
+id: wikilibrary
+name: 위키라이브러리
+license: Public Domain
+url: "http://wikilibrary.tk/"
+engine: mediawiki
+engine_options:
+  api_endpoint: "http://wikilibrary.tk/api.php"
+  
+---
 id: namuwiki
 name: 나무위키
 license: CC-BY-NC-SA 2.0 KR
