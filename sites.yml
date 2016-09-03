@@ -11,19 +11,19 @@ engine_options:
 id: twicewiki
 name: 트둥백과
 license: CC-BY-NC-SA 3.0
-url: "http://twicewiki.net/"
+url: "https://www.twicewiki.net/"
 engine: mediawiki
 engine_options:
-  api_endpoint: "http://twicewiki.net/api.php"
+  api_endpoint: "https://www.twicewiki.net/api.php"
 
 ---
 id: wsilog
 name: 대한위키실록
 license: Public Domain
-url: "http://wsilog.xyz/test/"
+url: "http://wsilog.xyz/w/"
 engine: mediawiki
 engine_options:
-  api_endpoint: "http://wsilog.xyz/test/api.php"
+  api_endpoint: "http://wsilog.xyz/w/api.php"
 
 ---
 id: librewiki
@@ -67,3 +67,12 @@ url: "http://buswiki.2t.yt/"
 engine: mediawiki
 engine_options:
   api_endpoint: "http://buswiki.2t.yt/api.php"
+
+  ---
+id: hotowiki
+name: HotoWiki
+license: CC-BY-SA 4.0
+url: "https://hoto.wiki/"
+engine: mediawiki
+engine_options:
+  api_endpoint: "https://hoto.wiki/api.php"

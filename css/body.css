@@ -1,7 +1,41 @@
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+* {
+    outline: none;
+
+}
+
+input:hover, button:hover, select:hover {
+    transition: 0.3s;
+}
+
+html {
+    font-size: 15px;
+    font-smoothing: antialiased;
+}
+
+body {
+    font-size: 0.95rem;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Nanum Gothic"!important;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, b {
+    font-family: "Nanum Gothic"!important;
+}
+
+code, kbd, pre, samp, button, input, optgroup, selete, testarea, .popover, .tooltip, .h1, .h2, .h3, .h4, .h5,  .h6,.carousel-control, .carousel-control .icon-next, .button.button-desc, .button.button-desc span, a.share:after, #swipebox-top-bar, #Announce {
+    font-family: "Nanum Gothic"!important;
+}
+.ws-container, .ws-title, .ws-sites, .ws-sites th, .ws-sites th, .ws-sites td, .ws-license, .ws-g, .ws-n, .ws-n-error, .ws-help, .ws-help li{
+    font-family: "Nanum Gothic"!important;
+}
+
 body {
 	margin: 0px;
 	font-size: 4px;
-	font-family: sans-serif;
 }
 a {
 	color: #009688;
