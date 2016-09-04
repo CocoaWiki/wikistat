@@ -63,10 +63,10 @@ engine: namu
 id: buswiki
 name: 버스위키
 license: CC-BY-NC-ND 4.0
-url: "http://buswiki.2t.yt/"
+url: "https://buswiki.ml/"
 engine: mediawiki
 engine_options:
-  api_endpoint: "http://buswiki.2t.yt/api.php"
+  api_endpoint: "https://buswiki.ml/api.php"
 
   ---
 id: hotowiki
